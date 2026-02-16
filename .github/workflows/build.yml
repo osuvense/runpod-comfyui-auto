@@ -29,4 +29,4 @@ jobs:
         push: true
         tags: osuvense/comfyui-auto:latest
         cache-from: type=gha
-        cache-to: type=gha,mode=max
+        no-cache: true
